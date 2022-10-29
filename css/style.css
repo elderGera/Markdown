@@ -8,10 +8,6 @@ body {
     scrollbar-track-color: #fff;
   }
   
-  .col-6 h6 {
-    height: 40px;
-  }
-
   .preview {
     height: 500px;
     background-color: white;
