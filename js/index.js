@@ -42,7 +42,7 @@ class App extends React.Component {
     return(
       <div>
         <h2 className="text-center m-3">Convert your Markdown</h2>
-        <div className="row m-3">
+        <div className="row m-1">
           <div className="col-6">
             <h6 className="text-center">Enter your markdown:</h6>
             <textarea className="form-control" id="editor" value={text} onChange={this.handleChange} />
