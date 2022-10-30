@@ -41,14 +41,14 @@ class App extends React.Component {
     
     return(
       <div>
-        <h2 className="text-center pt-4">Convert your Markdown</h2>
-        <div className="row">
-          <div className="col-6">
-            <h6 className="text-center">Enter your markdown:</h6>
+        <h2 className="text-center m-3 pt-3">Convert your Markdown</h2>
+        <div className="row m-4">
+          <div className="col-md-6">
+            <h5 className="text-center m-3">Enter your markdown:</h5>
             <textarea className="form-control" id="editor" value={text} onChange={this.handleChange} />
           </div>
-          <div className="col-6">
-            <h6 className="text-center">See the result:</h6>
+          <div className="col-md-6">
+            <h5 className="text-center m-3">See the result:</h5>
               <div className="preview rounded p-1" id="preview" dangerouslySetInnerHTML={{__html: markdown}} />
           </div>  
         </div>
